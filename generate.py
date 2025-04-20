@@ -12,7 +12,7 @@ TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teun van der Weij - AI Safety Researcher</title>
+    <title>Nadja Flechner - AI & Forecasting Researcher</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;

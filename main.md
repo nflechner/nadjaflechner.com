@@ -1,18 +1,9 @@
-# Teun van der Weij {style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px"}
-<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">AI safety/security/alignment researcher</h4>
-<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">Co-founder & Board Member at ENAIS</h4>
+# Nadja Flechner {style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px"}
+<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">AI/Forecasting researcher</h4>
 
-## Table of contents
-- [About Me](#about-me)
-- [Work Experience](#work-experience)
-- [Education](#education)
-- [Activity Highlights](#activity-highlights)
-- [Research Papers](#research-papers)
-- [Outside of Work](#outside-of-work)
-- [Contact](#contact)
 
 <div style="overflow: hidden; margin-top: -200px">
-<img src="weij002_cropped.jpg" alt="teun van der weij" width="200" height="200" style="float: right; margin-left: 20px; margin-bottom: 10px; border-radius: 50%">
+<img src="profilepic.jpeg" alt="teun van der weij" width="200" height="200" style="float: right; margin-left: 20px; margin-bottom: 10px; border-radius: 50%">
 </div>
 
 ## About me {#about-me style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
@@ -25,6 +16,7 @@ Before Mantic, I focused on strategic underperformance on evaluations (sandbaggi
 
 I'm also a co-founder and board member at ENAIS (European Network for AI Safety), working to improve AI safety activities and coordination in Europe. 
 
+## Questions I'm interested in
 
 
 ## Work experience {#work-experience style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
@@ -76,32 +68,6 @@ I co-founded the European Network for AI Safety (ENAIS), with a goal to improve 
 Participated in the Supervised Program for Alignment Research organized at UC Berkeley, focusing on evaluating the shutdown problem in language models.
 
 
-## Research papers {#research-papers style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
-For another overview, see my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>. Although quite some citations are missing, so you can also look at <a href="https://www.semanticscholar.org/author/Teun-van-der-Weij/2221010426" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Semantic Scholar ↗</a>.
-
-- Hofstätter, F., **van der Weij, T.**, Teoh, J., Bartsch, H., & Ward, F. R. (2024). *The Elicitation Game: Evaluating Capability Elicitation Techniques.* Workshop on Socially Responsible Language Modeling Research. [arXiv preprint arXiv:2502.02180](https://arxiv.org/abs/2502.02180)
-
-Interesting empirical work aiming to inform how evaluators can best elicit AI systems with potentially hidden capabilities.
-
-
-- Tice, C., Kreer, P. A., Helm-Burger, N., Shahani, P. S., Ryzhenkov, F., Haimes, J., Hofstätter, F., **van der Weij, T.** (2024). *Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models.* Workshop on Socially Responsible Language Modeling Research. [arXiv preprint arXiv:2412.01784](https://arxiv.org/abs/2412.01784)
-
-I supervised this paper. Adding noise is a very interesting idea, and further experiments are being conducted to see if this can be used to robustly and accurately detect sandbagging.
-
-- **van der Weij, T.**, Hofstätter, F., Jaffe, O., Brown, S. F., & Ward, F. R. (2024). *AI Sandbagging: Language Models can Strategically Underperform on Evaluations.* ICLR 2025. [arXiv preprint arXiv:2406.07358](https://arxiv.org/abs/2406.07358)
-
-I am most proud of this paper, and I think it's my most impactful work so far. It's great to see our work being used in both technical and governance contexts, inspiring groups at prominent AI safety organizations.
-
-- **van der Weij, T.**, Poesio, M., & Schoots, N. (2024). *Extending Activation Steering to Broad Skills and Multiple Behaviours.* [arXiv preprint arXiv:2403.05767](https://arxiv.org/abs/2403.05767).
-
-This paper was very helpful in improving my technical skills, both in conducting experiments and in understanding transformers. The paper contains some interesting ideas, but it's impact is limited.
-
-- **van der Weij, T.**, Lermen, S., & Lang, L. (2023). *Evaluating Shutdown Avoidance of Language Models in Textual Scenarios.* [Safe & Trusted AI, ICLP 2023](https://arxiv.org/pdf/2307.00787).
-
-My first project in AI safety. In some small experiments, we showed that GPT-4 has the capability to reason correctly about avoiding shutdown in certain scenarios, and actually does this in some cases.
-- **van der Weij, T.**, Soancatl Aguilar, V., & Solorio-Fernández, S. (2022). *Runtime Prediction of Filter Unsupervised Feature Selection Methods.* [Research in Computing Science, 150(8), 138-150](https://research.rug.nl/en/publications/runtime-prediction-of-filter-unsupervised-feature-selection-metho).
-
-
 ## Education {#education style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
 <div style="display: flex; align-items: center;">
@@ -129,19 +95,6 @@ Grade: summa cum laude (with highest distinction).
 </div>
 Grade: cum laude (with distinction).
 
-## Activity highlights {#activity-highlights style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
-
-### Moderator of a Q&A
-I moderated a Q&A event with (ex-)OpenAI and Alignment Research Center researchers (Jeff Wu, Jacob Hilton, and Daniel Kokotajlo). We had over 1,800 people attending the event on existential risks posed by AI.
-
-### Presentations
-I have presented at various events on AI safety and related topics. Topics include AI sandbagging, how to contribute to AI safety without doing technical research, and more. 
-
-If you want me to present at your event, feel free to reach out. I might charge a fee for the presentation based on the event, but I am happy to discuss this.
-ure Selection Methods.* Research in Computing Science, 150(8), 138-150.
-
-### Field-building 
-My work at ENAIS is the best example of helping to support the field, but I have also helped organize events like the Dutch AI Safety Retreat.
 
 
 ## Outside of work {#outside-of-work style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
@@ -153,4 +106,4 @@ Nature is nice too, and I mostly enjoying running, hiking, and snowboarding. Mos
 
 ## Contact {#contact style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px"}
 
-**Email:** mailvan{first name}@gmail.com
+**Email:** {my first name}flechner99@gmail.com
