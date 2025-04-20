@@ -1,228 +1,210 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teun van der Weij - AI Safety Researcher</title>
+    <title>Nadja Flechner - AI & Forecasting Researcher</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
             color: #333;
-        }
-
-        .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 2rem;
+            padding: 20px;
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
         }
-
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+        }
+        
         h1 {
             color: #2c3e50;
-            text-align: center;
-            padding: 2rem;
-            background-color: #fff;
-            margin-top: 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
         }
-
+        
         h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 0.5rem;
-            margin-top: 2rem;
-        }
-
-        h3 {
             color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
         }
-
-        a {
+        
+        .role-title {
             color: #3498db;
-            text-decoration: none;
+            display: inline-block;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin: 0;
         }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        p {
-            margin-bottom: 1rem;
-        }
-
-        ul {
-            padding-left: 2rem;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
-        }
-
-        /* Style for the contact section */
-        #contact {
-            background-color: #fff;
-            padding: 2rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            margin-top: 2rem;
-        }
-
-        /* Style for the skills section */
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-
-        .skill-category {
-            background-color: #fff;
-            padding: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        /* Style for papers list */
-        .papers-list li {
-            margin-bottom: 1rem;
-            padding-left: 1rem;
-            border-left: 3px solid #2c3e50;
-        }
-
-        em {
+        
+        .date-location {
             color: #666;
-            font-style: normal;
+            margin-left: 10px;
+        }
+        
+        .flex-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .website-link {
+            display: inline-block;
+            background-color: #f8f9fa;
+            padding: 2px 8px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #3498db;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-top: -10px;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .profile-container {
+            overflow: hidden;
+        }
+        
+        .profile-pic {
+            float: right;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1 style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px">Teun van der Weij</h1>
-<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">AI safety/security/alignment researcher</h4>
-<h4 style="color: #666; margin-top: -10px; text-align: center; font-weight: 500">Co-founder & Board Member at ENAIS</h4>
 
-<h2>Table of contents</h2>
-<ul>
-<li><a href="#about-me">About Me</a></li>
-<li><a href="#work-experience">Work Experience</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#activity-highlights">Activity Highlights</a></li>
-<li><a href="#research-papers">Research Papers</a></li>
-<li><a href="#outside-of-work">Outside of Work</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-<div style="overflow: hidden; margin-top: -200px">
-<img src="weij002_cropped.jpg" alt="teun van der weij" width="200" height="200" style="float: right; margin-left: 20px; margin-bottom: 10px; border-radius: 50%">
-</div>
+    <h1>Nadja Flechner</h1>
+    
+    <div class="intro-container">
+        <img src="profilepic.jpeg" alt="Nadja Flechner" class="profile-pic" style="object-fit: cover; object-position: top;">
+        <div class="intro-text">
+            <p>
+                I'm a researcher with a background in AI. My goal is to use my skills to benefit the public and help non-profit organizations. My current focus is on forecasting methodologies at the Forecasting Research Institute (FRI), where I'm exploring how forecasting can enhance decision-making processes. I'm also diving deeper into the capabilities and implications of Large Language Models (LLMs). I will attend ARENA to further develop my technical skills LLM research.
+            </p>
+            <p>
+                I've also worked on the intersection of AI and remote sensing — developing weakly supervised learning models that extract meaningful insights from satellite imagery. I'm excited about the potential of remote sensing to deliver positive societal impact.
+            </p>
+            <div class="research-questions">
+                <h3>Research Interests</h3>
+                <p>
+                    These are some topics and questions I'm interested in, and hoping to research more:
+                </p>
+                <ul>
+                    <li>Where can AI create meaningful efficiency gains in research?</li>
+                    <li>How can we ensure AI developments proceed safely and responsibly?</li>
+                    <li>How can forecasting techniques be leveraged for better institutional decision making?</li>
+                    <li>What impacts will increased AI adoption have on societal discourse, democratic processes, and public opinion formation?</li>
+                    <li>Which applications of remote sensing can deliver positive societal impact?</li>
+                </ul>
+            </div>
 
-<h2 id="about-me" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">About me</h2>
-<p>I am an independent AI safety researcher, figuring out what to do next to make AI be safe and useful. (Feel free to substitue safety with either aligment or security if you prefer.) Currently I mostly work on AI sandbagging and control.</p>
-<p>Until January 2025, I was a Resident at Mantic. Mantic's goal is to create an AI superforecaster, and my role was best described as a research scientist.</p>
-<p>Before Mantic, I focused on strategic underperformance on evaluations (sandbagging) by AI systems. This started at MATS, and I continued working on this with a grant from the AI Safety Fund from the Frontier Model Forum.</p>
-<p>I'm also a co-founder and board member at ENAIS (European Network for AI Safety), working to improve AI safety activities and coordination in Europe. </p>
-<h2 id="work-experience" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">Work experience</h2>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">AI safety researcher</h3>
-  <span style="color: #666; margin-left: 10px;">Jan 2025 – Present | Remote</span>
-</div>
+            <div class="research-services">
+                <h3>Research Services</h3>
+                <p>
+                    I hope to be of use for the non-profit sector, and for organizations that are looking to leverage AI and research to achieve their goals. Based on my background, I can help with the following services:
+                </p>
+                <ul>
+                    <li>Data analysis and visualization</li>
+                    <li>Quantitative research</li>
+                    <li>Automating processes with AI</li>
+                    <li>Finding ways to make your work more efficient</li>
+                    <li>Literature reviews</li>
+                </ul>
+            </div>
 
-<p>I am working on research related to sandbagging and AI control. I examine which (if any) control mechanisms can catch sandbagging and also general sabotage attempts.</p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Resident at Mantic</h3>
-  <span style="color: #666; margin-left: 10px;">Oct 2024 – Present | London, UK & Remote</span>
-</div>
-
-<p>Mantic has the goal of creating an AI superforecaster. I am working as a research scientist at the start up. Mantic was founded by Toby Shevlane and Ben Day.
-<a href="https://mntc.ai" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">mntc.ai ↗</a></p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Independent Research on AI Sandbagging</h3>
-  <span style="color: #666; margin-left: 10px;">Aug 2024 – Oct 2024 | London, UK & Remote</span>
-</div>
-
-<p>Continued research on strategic underperformance on evaluations (sandbagging) with a grant from the AI Safety Fund from the Frontier Model Forum. Together with Francis Rhys Ward and Felix Hofstätter, I continued the research started at MATS.</p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Research Scholar at MATS</h3>
-  <span style="color: #666; margin-left: 10px;">Jan 2024 – Jul 2024 | Berkeley, CA, US; London, UK & Remote</span>
-</div>
-
-<p>MATS is a program to train AI safety researchers. At MATS, I mostly worked on strategic underperformance on evaluations (sandbagging) of general purpose AI with the mentorship of Francis Rhys Ward.
-<a href="https://matsprogram.org" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">matsprogram.org ↗</a></p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">Co-founder and Co-director at ENAIS</h3>
-  <span style="color: #666; margin-left: 10px;">Dec 2022 – Present | Remote</span>
-</div>
-
-<p>I co-founded the European Network for AI Safety (ENAIS), with a goal to improve coordination and collaboration between AI Safety researchers and policymakers in Europe.
-<a href="https://enais.co" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">enais.co ↗</a></p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">SPAR participant</h3>
-  <span style="color: #666; margin-left: 10px;">Feb 2023 – May 2023 | Remote</span>
-</div>
-
-<p>Participated in the Supervised Program for Alignment Research organized at UC Berkeley, focusing on evaluating the shutdown problem in language models.</p>
-<h2 id="research-papers" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">Research papers</h2>
-<p>For another overview, see my <a href="https://scholar.google.com/citations?hl=en&user=-fMmbSYAAAAJ" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Google Scholar ↗</a>. Although quite some citations are missing, so you can also look at <a href="https://www.semanticscholar.org/author/Teun-van-der-Weij/2221010426" style="display: inline-block; background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; text-decoration: none; color: #3498db; font-size: 0.9em; margin-top: 5px;">Semantic Scholar ↗</a>.</p>
-<ul>
-<li>Hofstätter, F., <strong>van der Weij, T.</strong>, Teoh, J., Bartsch, H., &amp; Ward, F. R. (2024). <em>The Elicitation Game: Evaluating Capability Elicitation Techniques.</em> Workshop on Socially Responsible Language Modeling Research. <a href="https://arxiv.org/abs/2502.02180">arXiv preprint arXiv:2502.02180</a></li>
-</ul>
-<p>Interesting empirical work aiming to inform how evaluators can best elicit AI systems with potentially hidden capabilities.</p>
-<ul>
-<li>Tice, C., Kreer, P. A., Helm-Burger, N., Shahani, P. S., Ryzhenkov, F., Haimes, J., Hofstätter, F., <strong>van der Weij, T.</strong> (2024). <em>Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models.</em> Workshop on Socially Responsible Language Modeling Research. <a href="https://arxiv.org/abs/2412.01784">arXiv preprint arXiv:2412.01784</a></li>
-</ul>
-<p>I supervised this paper. Adding noise is a very interesting idea, and further experiments are being conducted to see if this can be used to robustly and accurately detect sandbagging.</p>
-<ul>
-<li><strong>van der Weij, T.</strong>, Hofstätter, F., Jaffe, O., Brown, S. F., &amp; Ward, F. R. (2024). <em>AI Sandbagging: Language Models can Strategically Underperform on Evaluations.</em> ICLR 2025. <a href="https://arxiv.org/abs/2406.07358">arXiv preprint arXiv:2406.07358</a></li>
-</ul>
-<p>I am most proud of this paper, and I think it's my most impactful work so far. It's great to see our work being used in both technical and governance contexts, inspiring groups at prominent AI safety organizations.</p>
-<ul>
-<li><strong>van der Weij, T.</strong>, Poesio, M., &amp; Schoots, N. (2024). <em>Extending Activation Steering to Broad Skills and Multiple Behaviours.</em> <a href="https://arxiv.org/abs/2403.05767">arXiv preprint arXiv:2403.05767</a>.</li>
-</ul>
-<p>This paper was very helpful in improving my technical skills, both in conducting experiments and in understanding transformers. The paper contains some interesting ideas, but it's impact is limited.</p>
-<ul>
-<li><strong>van der Weij, T.</strong>, Lermen, S., &amp; Lang, L. (2023). <em>Evaluating Shutdown Avoidance of Language Models in Textual Scenarios.</em> <a href="https://arxiv.org/pdf/2307.00787">Safe &amp; Trusted AI, ICLP 2023</a>.</li>
-</ul>
-<p>My first project in AI safety. In some small experiments, we showed that GPT-4 has the capability to reason correctly about avoiding shutdown in certain scenarios, and actually does this in some cases.
-- <strong>van der Weij, T.</strong>, Soancatl Aguilar, V., &amp; Solorio-Fernández, S. (2022). <em>Runtime Prediction of Filter Unsupervised Feature Selection Methods.</em> <a href="https://research.rug.nl/en/publications/runtime-prediction-of-filter-unsupervised-feature-selection-metho">Research in Computing Science, 150(8), 138-150</a>.</p>
-<h2 id="education" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">Education</h2>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">MSc Student at Utrecht University</h3>
-  <span style="color: #666; margin-left: 10px;">Sep 2022 – Nov 2024 | Utrecht, Netherlands</span>
-</div>
-
-<p>Coursework includes Advanced Machine Learning, Natural Language Processing, Human-centered Machine Learning, Pattern Recognition &amp; Deep Learning, and Philosophy of AI.</p>
-<p>Grade: 8.2/10</p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">BSc Student at University College Groningen</h3>
-  <span style="color: #666; margin-left: 10px;">2018 – 2021 | Groningen, Netherlands</span>
-</div>
-
-<p>Focus on AI, philosophy, and psychology.</p>
-<p>Grade: summa cum laude (with highest distinction).</p>
-<div style="display: flex; align-items: center;">
-  <h3 style="color: #3498db; display: inline-block; border-left: 4px solid #3498db; padding-left: 10px; margin: 0;">High School Student at Het Nieuwe Eemland</h3>
-  <span style="color: #666; margin-left: 10px;">2012 – 2018 | Amersfoort, Netherlands</span>
-
-</div>
-<p>Grade: cum laude (with distinction).</p>
-<h2 id="activity-highlights" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">Activity highlights</h2>
-<h3>Moderator of a Q&amp;A</h3>
-<p>I moderated a Q&amp;A event with (ex-)OpenAI and Alignment Research Center researchers (Jeff Wu, Jacob Hilton, and Daniel Kokotajlo). We had over 1,800 people attending the event on existential risks posed by AI.</p>
-<h3>Presentations</h3>
-<p>I have presented at various events on AI safety and related topics. Topics include AI sandbagging, how to contribute to AI safety without doing technical research, and more. </p>
-<p>If you want me to present at your event, feel free to reach out. I might charge a fee for the presentation based on the event, but I am happy to discuss this.
-ure Selection Methods.* Research in Computing Science, 150(8), 138-150.</p>
-<h3>Field-building</h3>
-<p>My work at ENAIS is the best example of helping to support the field, but I have also helped organize events like the Dutch AI Safety Retreat.</p>
-<h2 id="outside-of-work" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">Outside of work</h2>
-<p>I enjoy listening to music, so I go to concerts and festivals quite regularly. I listen to many genres, but my current two favorites are reggae and trance.</p>
-<p>I like travelling too, so I try to visit new places when I can. Some favorites are the Nordics, Australia, and Zimbabwe.</p>
-<p>Nature is nice too, and I mostly enjoying running, hiking, and snowboarding. Most recently I have gotten into splitboarding. </p>
-<h2 id="contact" style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px">Contact</h2>
-<p><strong>Email:</strong> mailvan{first name}@gmail.com</p>
+        </div>
     </div>
+    
+    <h2 id="work-experience">Work Experience</h2>
+    
+    <div class="flex-container">
+        <h3 class="role-title">Research Assistant</h3>
+        <span class="date-location">Dec 2024 – Present | Remote</span>
+    </div>
+    <p>
+        At the Forecasting Research Institute, I contribute to research projects, and have implemented LLM-based solutions to increase the efficiency of their research.
+    </p>
+    
+    <div class="flex-container">
+        <h3 class="role-title">Independent Researcher at Umeå University</h3>
+        <span class="date-location">Nov 2024 – Feb 2025 | Remote</span>
+    </div>
+    <p>
+        Continuing work developed for my MSc thesis, where I developed a weakly supervised model to automatically segment permafrost land structures from aerial images. This work enables efficient tracking of changes in permafrost areas in northern Scandinavia, a process previously done mostly manually.
+
+    </p>
+    
+    <div class="flex-container">
+        <h3 class="role-title">Research Intern at Infoplaza</h3>
+        <span class="date-location">Sep 2023 – Feb 2024 | Houten, Netherlands</span>
+    </div>
+    <p>
+        Researched the applicability of generative adversarial networks (GANs) for cloud cover prediction, specifically nowcasting. Conducted this work as a 6-month independent research project, implementing solutions using PyTorch and cloud computing technologies.
+    </p>
+    
+    <div class="flex-container">
+        <h3 class="role-title">Analyst at SHIFT Invest</h3>
+        <span class="date-location">Apr 2023 – Jul 2023 | Amstelveen, Netherlands</span>
+    </div>
+    <p>
+        Worked at an impact venture capital firm investing in sustainable start-ups and scale-ups. As part of the 'Green Industries' team, I handled incoming dealflow, conducted technology deep-dives, and analyzed technological, financial, and market risks/opportunities for various startups.
+    </p>
+    
+    <div class="flex-container">
+        <h3 class="role-title">Teaching Assistant at University College Groningen</h3>
+        <span class="date-location">Mar 2021 – Jul 2021 | Groningen, Netherlands</span>
+    </div>
+    <p>
+        As a TA for Artificial Intelligence and Data Science courses, I wrote lesson plans, created course materials, developed the course syllabus, and taught classes.<br>
+    </p>
+    
+    <div class="flex-container">
+        <h3 class="role-title">PhD Research Assistant at VU Amsterdam</h3>
+        <span class="date-location">Aug 2019 – Mar 2021 | Amsterdam, Netherlands</span>
+    </div>
+    <p>
+        Assisted PhD students with their research during data collection and interview phases (transcribing), as well as document formatting and proofreading.
+    </p>
+    
+    <h2 id="education">Education</h2>
+    
+    <div class="flex-container">
+        <h3 class="role-title">MSc in Artificial Intelligence at Utrecht University</h3>
+        <span class="date-location">Sep 2022 – Nov 2024 | Utrecht, Netherlands</span>
+    </div>
+    <p>
+        <strong>Grade:</strong> Cum Laude<br>
+        <strong>Thesis:</strong> Developed a weakly supervised segmentation model for the Ecology and Environmental Science (EMG) department at Umeå University. Grade: 9/10.<br>
+        <strong>Internship:</strong> Conducted a 6-month deep learning research project in meteorology at Infoplaza, developing a cloud nowcasting model. Grade: 9/10.<br>
+        <strong>Skills:</strong> Deep Learning, Machine Learning
+    </p>
+    
+    <div class="flex-container">
+        <h3 class="role-title">BSc in Liberal Arts and Sciences at University of Groningen</h3>
+        <span class="date-location">2018 – 2021 | Groningen, Netherlands</span>
+    </div>
+    <p>
+        <strong>Grade:</strong> Summa Cum Laude<br>
+        Pursued an interdisciplinary education with focus on Artificial Intelligence. Combined courses in programming, mathematics, psychology, and philosophy to build a strong foundation for advanced studies in AI.
+    </p>
+    
+    
+    <h2 id="outside-of-work">Outside of Work</h2>
+    <p>
+        When not doing research, I enjoy exploring new places through travel and spending time outdoors - often in the mountains doing alpine sports (climbing, hiking, splitboarding). I also enjoy reading, and surroudning myself with people that have interesting and diverse opinions.  
+    </p>
+    
+    <h2 id="contact">Contact</h2>
+    <p><strong>Email:</strong> {my first name}flechner99@gmail.com</p>
 </body>
 </html>
